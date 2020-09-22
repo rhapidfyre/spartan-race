@@ -1,0 +1,67 @@
+  
+  #events-listing table { 
+    color: silver;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .ctr tr, .ctr td {
+    text-align: center;
+  }
+  
+  .separator {
+    border-top: 1px solid rgba(200,200,200,0.2);
+  }
+  
+  .title {
+    min-width: 196px;
+    color: silver;
+    text-shadow: 1px 1px 2px white;
+    text-align: center;
+  }
+  
+  .img-24 { text-align: center; width: 24px;}
+  .img-48 { text-align: center; width: 48px;}
+  
+  .img-24 img, .img-48 img {
+    min-width: 24px;
+    max-width: 100%;
+  }
+  
+  #events-listing table tr button {
+    background: transparent;
+    margin: 0; padding: 0;
+    border: 0;
+    cursor: pointer;
+    width: 100%;
+    min-width: 24px;
+  }
+  
+  
+  #events-chosen h3 {
+    width: calc(100% - 4px);
+    text-align: center;
+    font-style: italic;
+    color: silver;
+    margin: 0;
+    padding: 2px;
+    background: rgb(80,80,80);
+    border-bottom: 2px ridge silver;
+  }
+
+  #events-chosen table { 
+    color: silver;
+    border-collapse: collapse;
+    width: 100%;
+    position: relative;
+    margin: 4px;
+  }
+  
+  #events-chosen table tbody td:nth-child(4) {
+    color: rgb(0,200,0);
+    text-align: center;
+  }
+  #events-chosen table tbody td:nth-child(5) {
+    color: rgb(200,180,0);
+    text-align: center;
+  }

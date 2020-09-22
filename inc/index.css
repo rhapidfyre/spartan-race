@@ -1,0 +1,98 @@
+  
+  html {
+    background:  url('../img/bkg01.png');
+    background-repeat: repeat;
+    background-color:  white;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #main-top {
+    height: calc(60% - 8px);
+    position: relative;
+    min-width: 768px;
+    min-height: 256px;
+  }
+  
+  #account-info {
+    position: relative;
+    float: left;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: calc(40% - 8px);
+    border: 2px inset grey;
+    box-sizing: border-box;
+    background: black;
+  }
+  
+  #events-listing {
+    float: right;
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: calc(60% - 8px);
+    border: 2px inset grey;
+    box-sizing: border-box;
+    background: black;
+    overflow-y: scroll;
+  }
+  
+  #events-listing h3 {
+    width: calc(100% - 4px);
+    text-align: center;
+    font-style: italic;
+    color: silver;
+    margin: 0;
+    padding: 2px;
+    background: rgb(80,80,80);
+    border-bottom: 2px ridge silver;
+  }
+  
+  #main-bottom {
+    margin: 4px 0 0 0;
+    height: calc(40% - 16px);
+    min-width: 768px;
+    min-height: 196px;
+  }
+  
+  #events-chosen {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: calc(100% - 4px);
+    border: 2px inset grey;
+    background: black;
+  }
+  
+  #footer {
+    color: silver;
+    font-style: italic;
+    font-size:0.92em;
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+    margin: 0 12px;
+    padding: 0;
+    width: calc(100% - 24px);
+  }
+  
+  #footer a {
+    color: gold;
+    font-style: none;
+    text-decoration: none;
+    font-size: 1.05em;
+    font-weight: bold;
+  }
+  
+  
+  .left  { float: left;  }
+  .right { float: right; }
+  .center {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .reset { float: reset; }
+  
